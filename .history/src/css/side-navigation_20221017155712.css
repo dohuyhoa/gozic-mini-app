@@ -1,0 +1,36 @@
+.side-nav {
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+  top: 0;
+  height: 100%;
+  width: 300px;
+}
+
+.side-nav-icon {
+  position: absolute;
+  right: 0;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.side-nav-list {
+  margin-top: 50px;
+  padding-right: 20px;
+}
+
+.side-nav-item {
+  list-style: none;
+  text-transform: capitalize;
+  border-bottom: 2px solid #e1e4eb;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s all ease-in-out;
+}
+
+.side-nav-item:hover {
+  background-color: var(--color-primary);
+}

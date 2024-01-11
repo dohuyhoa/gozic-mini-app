@@ -1,0 +1,14 @@
+.bottom-navigation {
+  background-color: var(--gozic-primary);
+  color: white;
+
+  padding-top: 12px;
+  padding-bottom: 8px;
+  font-size: 13px;
+
+  border-top: 1px solid var(--gozic-gray-2);
+  z-index: 999;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

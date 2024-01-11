@@ -1,0 +1,9 @@
+.heading {
+  background-color: var(--color-primary);
+  color: white;
+  padding-left: 5px;
+}
+
+.heading-side {
+  background-color: black;
+}

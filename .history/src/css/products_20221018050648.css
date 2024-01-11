@@ -1,0 +1,11 @@
+.product-title {
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

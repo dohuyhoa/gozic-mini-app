@@ -1,0 +1,34 @@
+.product-title {
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 10px;
+  width: 428px;
+}
+
+.product-image {
+  width: 200px;
+  height: 192px;
+}
+
+.product-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-cate {
+  width: 100%;
+}
+
+.product-cate > img {
+  width: 100%;
+  height: 45px;
+}

@@ -1,0 +1,17 @@
+.btn-sort{
+    background-color: white !important;
+    color: black !important;
+    border: solid 2px #d6d2d2 !important;
+    outline-style: none !important;
+}
+.sort-ul .sort-li {
+    margin: 12px;
+    display: flex;
+}
+ul li label{
+    margin-left: 12px;
+}
+.sort{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,129 @@
+.side-nav {
+  position: fixed;
+  background-color: white;
+  z-index: 99;
+  top: 0;
+  height: 100%;
+  width: 280px;
+  border-radius: 0 12px 12px 0;
+}
+
+/* .side-nav-icon {
+  position: absolute;
+  right: 0;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.3s all ease-in-out;
+} */
+
+.side-nav-list {
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+  margin-right: 6rem !important;
+  width: 100% !important;
+}
+
+.side-nav-item {
+  padding: 0 0px;
+  line-height: 40px;
+  /* color: #666 !important; */
+  text-transform: none;
+  border-bottom: 1px solid #E1E4EB;
+  display: block;
+  text-align: left;
+  white-space: normal;
+}
+/* .side-nav-item a{
+  color: #666 !important;
+} */
+
+.side-nav-item:hover,
+.side-nav-icon:hover {
+  color: var(--color-primary);
+}
+
+.offcanvas {
+  width: fit-content !important;
+  max-width: 100%;
+}
+
+/* Submenu */
+.offcanvas-body {
+  overflow-x: hidden;
+  width: 67vw;
+  min-width: 300px;
+}
+.sidebar-item{
+  /* padding: .75em 1em;
+  display: block;
+  transition: background-color .15s;
+  border-radius: 5px; */
+  padding: 0 0px;
+  line-height: 40px;
+  /* color: #666 !important; */
+  text-transform: none;
+  border-bottom: 1px solid #E1E4EB;
+  display: block;
+  text-align: left;
+  white-space: normal;
+}
+.sidebar-item:hover{
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar-title{
+  display: flex;
+  /* font-size: 1.2em; */
+  justify-content: space-between;
+  align-items: center;
+}
+/* .sidebar-title span i{
+  display: inline-block;
+  width: 1.5em;
+} */
+.sidebar-title .toggle-btn{
+  filter: invert(1);
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  transition: transform .3s;
+}
+.sidebar-item.open > .sidebar-title .toggle-btn{
+  filter: invert(0);
+  color: black;
+  transform: rotate(180deg);
+}
+.sidebar-content{
+  /* padding-top: .25em; */
+  height: 0;
+  overflow: hidden;
+}
+.sidebar-item.open > .sidebar-content{
+  height: auto;
+}
+
+.sidebar-content > span:last-child > a{
+  border-bottom: none !important;
+}
+.sidebar-item.plain{
+  text-decoration: none;
+  /* text-indent: 1.5em; */
+  font-size: medium;
+  color: black !important;
+  border-bottom: 1px solid #E1E4EB;
+}
+.sidebar-item.plain:hover{
+  text-decoration: underline;
+}
+/* .sidebar-item.plain i{
+  display: inline-block;
+  width: 1.7em;
+} */
+.sidebar-content a{
+  line-height: 28px;
+}
+.sidebar-content > span {
+  display: block;
+  padding: 4px 0px;
+}

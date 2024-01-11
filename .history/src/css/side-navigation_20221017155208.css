@@ -1,0 +1,19 @@
+.side-nav {
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+  top: 0;
+  height: 100%;
+  width: 300px;
+}
+
+.side-nav-icon {
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.side-nav-item {
+  list-style: none;
+  text-transform: capitalize;
+}

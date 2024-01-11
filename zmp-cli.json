@@ -1,0 +1,17 @@
+{
+  "cwd": "/Users/diepvan/workspace/gozic/mini-zalo-app",
+  "newProject": true,
+  "name": "gozic",
+  "package": "zmp-ui",
+  "language": "react",
+  "cssPreProcessor": false,
+  "template": "single-view",
+  "theming": {
+    "color": "#007aff",
+    "darkTheme": false,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "includeTailwind": false,
+  "stateManagement": "recoil"
+}

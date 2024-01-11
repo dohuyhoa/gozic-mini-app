@@ -1,0 +1,5 @@
+#user-update .gozic-info-card input{
+    padding: 12px 18px;
+    border: 1px solid var(--gozic-gray-2);
+    border-radius: 12px;
+}

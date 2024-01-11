@@ -1,0 +1,14 @@
+/* ========= WELCOME */
+#welcome .img-frame {
+    height: 100vh;
+    /* margin-top: 266px; */
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#welcome .img-frame img {
+    /* width: 335px; */
+
+    transform: translateY(-50%);
+}

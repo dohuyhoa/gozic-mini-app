@@ -1,0 +1,96 @@
+.product-detail-container{
+    background: #fff;
+}
+.product-detail-content{
+    padding: 15px;
+}
+.product-detail-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.product-detail-title  {
+    margin-top: 10px;
+}
+.product-detail-title span{
+    /* margin: 0; */
+    font-size: 18px;
+    color: #222;
+    font-weight: normal;
+    text-transform: capitalize;
+    /* line-height: 1; */
+}
+.product-detail-price{
+    line-height: 30px;
+}
+.product-detail-price .price-new{
+    line-height: 30px;
+    font-size: 28px !important;
+    color: #01ad7a;
+    margin-right: 5px;
+}
+.product-detail-price .price-old {
+    text-decoration: line-through;
+}
+
+.box-promotion{
+    background: #fffddf url(https://bephoaphat.com/uploads/promotion.png) no-repeat scroll right 0;
+    font-family: "Arial", "Times New Roman", Times, serif;
+    border: 1px solid #d81c1c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 13px;
+}
+.box-promotion ul{
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
+}
+.box-promotion ul li{
+    background: rgba(0, 0, 0, 0) url(https://bephoaphat.com/uploads/hot.gif) no-repeat scroll left 5px;
+    display: block;
+    margin-right: 7px;
+    padding-left: 30px;
+}
+.product-details-button{
+    display: inline-block;
+    margin: 0 0px 10px 0;
+    width: 100%;
+}
+.product-details-button .button-survey{
+    color: #fff;
+    width: 100%;
+    border-radius: 0px;
+    font-size: 20px;
+    min-height: 60px;
+    background-color: #00659e !important;
+    border: solid 2px #00659e !important;
+    border-radius: 6px;
+}
+.product-details-button .button-cart {
+    color: #fff;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 0px;
+    font-size: 20px;
+    min-height: 60px;
+    background-color: #01ad7a !important;
+    border: solid 2px #01ad7a !important;
+    border-radius: 6px;
+}
+.product-details-button p{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.zaui-page > div > .container > div img, .zaui-page > div > .container > div input {
+    width: 100% !important;
+    height: auto !important;
+}

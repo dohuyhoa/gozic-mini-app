@@ -1,0 +1,19 @@
+.slider-logo {
+  margin-top: 30px;
+  overflow: hidden;
+  margin-left: -10px;
+  position: relative;
+  height: 100px;
+}
+
+.slider-item {
+  width: calc(50% - 10px);
+  margin-left: 10px;
+  height: 100%;
+}
+
+.slider-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

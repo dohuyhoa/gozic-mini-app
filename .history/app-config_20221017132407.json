@@ -1,0 +1,14 @@
+{
+  "app": {
+    "title": "Bếp Hoà Phát",
+    "headerColor": "#01ad7a",
+    "textColor": "white",
+    "statusBarColor": "#164997",
+    "leftButton": "home"
+  },
+  "debug": false,
+  "listCSS": [],
+  "listSyncJS": [],
+  "listAsyncJS": [],
+  "pages": []
+}

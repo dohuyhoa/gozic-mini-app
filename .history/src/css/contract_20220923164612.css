@@ -1,0 +1,209 @@
+.contract-item {
+  position: relative;
+  margin-top: 17px;
+  padding: 16px;
+}
+#contract .container {
+  padding: 0 16px !important;
+}
+
+.overlay {
+  position: fixed;
+  background-color: #151515;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 3;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.contract-item.active .overlay {
+  opacity: 0.3;
+  visibility: visible;
+}
+
+.contract-owner {
+  margin: 12px 0;
+}
+
+.contract-btn-details {
+  padding: 0 26px;
+}
+
+.contract-btn-text {
+  margin-left: 17px;
+}
+
+.contract-btn-details .arrow-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.contract-item-image {
+  margin-left: 24px;
+  object-fit: contain;
+  min-height: 120px;
+}
+
+.contract-item-thumbnail {
+  width: calc(40% - 24px);
+}
+
+.contract-item-details {
+  margin-left: 25px;
+  width: calc(60% - 25px);
+}
+
+.contract-date {
+  margin-left: 12.5px;
+}
+
+.card {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-details {
+  margin-top: 14px;
+  margin-bottom: 22px;
+}
+.contract-item.active .card {
+  border: 1px solid var(--insmart-blue);
+  z-index: 6;
+}
+
+.delete-icon {
+  position: absolute;
+  font-size: 19px;
+  top: -25px;
+  right: 0;
+  color: #af2025;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.contract-item.active .delete-icon {
+  z-index: 8;
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Modal*/
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s linear;
+  background-color: #1515155c;
+}
+
+.modal-container-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: all 0.5s linear;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.delete-icon.active + .modal-container {
+  opacity: 1;
+  z-index: 10;
+  visibility: visible;
+}
+
+.modal-container.active .modal-container-item {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Form details contract*/
+
+.form-toggle {
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.form {
+  padding: 0 14px 0 14px;
+}
+
+.form-item {
+  margin-bottom: 12px;
+}
+
+.form-item:last-child {
+  margin-bottom: 26px;
+}
+
+#contract .form-row:not(:first-child) {
+  padding-top: 16px;
+}
+
+#contract .form-row {
+  padding-bottom: 16px;
+}
+
+#contract .form-label {
+  margin-bottom: 17px !important;
+}
+
+.btn-toggle.is-active .form-toggle {
+  max-height: 700px;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 10px;
+}
+
+.arrow-icon {
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-toggle {
+  margin-bottom: 14px;
+}
+
+.btn-toggle:last-child {
+  margin-top: 12px;
+}
+.btn-toggle.is-active .arrow-icon {
+  transform: rotate(180deg);
+}
+
+@media screen and (min-width: 767px) {
+  .delete-icon {
+    top: -3vw;
+    /* font-size: 12px; */
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .contract-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .delete-icon {
+    top: -2.5vw;
+    /* font-size: 12px; */
+  }
+}
+
+.drop-shadow {
+  box-shadow: 0px 16px 24px rgba(11, 8, 42, 0.12);
+}
+
+.separator {
+  margin: 0 14px;
+}

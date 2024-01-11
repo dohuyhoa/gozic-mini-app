@@ -1,0 +1,15 @@
+.banner {
+  padding: 20px;
+  width: 100%;
+
+  display: flex;
+}
+
+.banner-item {
+  max-height: 200px;
+}
+
+.banner-image {
+  height: auto;
+  object-fit: cover;
+}

@@ -1,0 +1,5 @@
+.side-nav {
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+}

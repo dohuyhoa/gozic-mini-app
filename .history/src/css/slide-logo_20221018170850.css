@@ -1,0 +1,28 @@
+.slider-logo {
+  background-color: #f2f5f5;
+  margin-top: 30px;
+  overflow: hidden !important;
+  margin-left: -10px;
+  display: flex;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.slider-item {
+  margin-top: 10px;
+  min-width: calc(50% - 10px);
+  margin-left: 10px;
+  overflow: hidden;
+  height: 100%;
+  transition: all 1s linear;
+}
+
+/* .slider-item:first-child {
+} */
+
+.slider-item .slide-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

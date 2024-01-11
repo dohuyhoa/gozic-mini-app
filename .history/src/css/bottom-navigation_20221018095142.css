@@ -1,0 +1,12 @@
+.bottom-navigation {
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  font-size: 13px;
+
+  border-top: 1px solid var(--insmart-gray-2);
+  z-index: 3;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

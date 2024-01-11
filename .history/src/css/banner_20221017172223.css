@@ -1,0 +1,22 @@
+.banner {
+  padding-top: 20px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.banner-slider {
+  width: 480px !important;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transform: translateX(0);
+}

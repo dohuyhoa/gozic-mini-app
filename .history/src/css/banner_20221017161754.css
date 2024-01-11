@@ -1,0 +1,19 @@
+.banner {
+  padding-top: 10px;
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.banner-item {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

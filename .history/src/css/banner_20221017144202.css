@@ -1,0 +1,6 @@
+.banner {
+  padding: 20px;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}

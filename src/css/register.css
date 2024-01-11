@@ -1,0 +1,13 @@
+#register .logo-slogan{
+    padding-top: 32px;
+    margin-bottom: 52px;
+}
+
+/* #register .logo-slogan .img-frame img{
+    width: 238px;
+} */
+
+#register .form-control{
+    padding: 16px 22px;
+    font-size: 14px;
+}

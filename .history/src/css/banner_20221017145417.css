@@ -1,0 +1,15 @@
+.banner {
+  display: flex;
+  width: 428px;
+}
+
+.banner-item {
+  width: 100%;
+  max-height: 200px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

@@ -1,0 +1,34 @@
+import React, { useEffect, useState } from "react";
+import "../css/slide-logo.css";
+const LogoSlide = (props) => {
+  const logos = [
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png",
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png",
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png",
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png",
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png",
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png",
+  ];
+  const [current, setCurrent] = useState(0);
+  const delay = 10000;
+  return (
+    <>
+      <div className="product-title">Thương Hiệu</div>
+      <div className="slider-logo">
+        {logos &&
+          logos.length > 0 &&
+          logos.map((logo, index) => {
+            return (
+              <Link key={index}>
+                <div className="slider-item">
+                  <img src={logo} alt="" />
+                </div>
+              </Link>
+            );
+          })}
+      </div>
+    </>
+  );
+};
+
+export default LogoSlide;

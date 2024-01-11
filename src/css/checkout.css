@@ -1,0 +1,90 @@
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.badge-pill {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    border-radius: 10rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: baseline;
+
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.list-group-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+input {
+    overflow: visible;
+    font-family: inherit;
+}
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.2rem;
+}
+
+.custom-control-input {
+    position: relative;
+    left: 0;
+    z-index: -1;
+    width: 1rem;
+    height: 1.25rem;
+}
+
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    padding-left: 0.8rem;
+}
+
+.btn-lg-block {
+    font-size: 1.25em;
+    border-radius: 0.3rem;
+    background-color: #01ad7a;
+    color: #fff;
+}

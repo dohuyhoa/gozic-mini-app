@@ -1,0 +1,35 @@
+.banner {
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 95vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 250px;
+  position: relative;
+}
+
+.banner-slider {
+  padding: 10px;
+  overflow: hidden;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+}
+
+.banner-image {
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-slider-active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}

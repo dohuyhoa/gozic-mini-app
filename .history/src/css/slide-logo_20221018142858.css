@@ -1,0 +1,10 @@
+.slider-logo {
+  display: flex;
+  overflow: hidden;
+  margin-left: -10px;
+}
+
+.slider-item {
+  width: calc(50% - 10px);
+  margin-left: 10px;
+}

@@ -1,0 +1,183 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.cart-info{
+    background: #fff ;
+}
+#cartList {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.cart-body {
+    padding: 20px;
+}
+
+.col-lg-3, .col-md-5, .col-xl-3, .col-lg-8 {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+
+.img-fluid {
+    height: 180px !important;
+    max-width: 100%;
+}
+
+.view img {
+    position: relative;
+    display: block;
+}
+
+.col-md-7, .col-lg-9, .col-xl-9 {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.number-input.number-input {
+    border: 1px solid #ced4da;
+    border-radius: 0.25em;
+}
+.minius {
+    padding-left: 10px;
+    padding-right: 6px;
+    border: 0px;
+}
+
+div {
+    display: block;
+}
+.number-input button {
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+
+}
+
+button {
+    text-transform: none;
+    overflow: visible;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 0;
+}
+
+.number-input.number-input input[type=number] {
+    max-width: 3rem;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #495057;
+}
+
+.number-input input[type=number] {
+    text-align: center;
+}
+
+.number-input.number-input button {
+    width: 2.5rem;
+    height: 0.7rem;
+}
+
+.number-input button {
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+.def-number-input.number-input {
+    flex-shrink: 0;
+}
+
+.cart-link-secondary {
+    border: 0;
+    background-color: transparent;
+}
+
+.small {
+    font-size: 80%;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.iconFaTrash {
+    padding-right: 8px;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.list-group-item.one {
+    padding-top: 12px;
+} 
+
+#cart a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.waves-effect {
+    margin: 0;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    font-size: 18px;
+    color: #fff;
+    background-color: #01ad7a;
+    padding: 17px 29px 16px 29px;
+    line-height: 1;
+}
+
+.dark-grey-text, .dark-grey-text:focus, .dark-grey-text:hover {
+    color: #4f4f4f!important;
+}
+.col-lg-4 {
+    color: #4f4f4f;
+}

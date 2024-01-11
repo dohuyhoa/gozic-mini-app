@@ -1,0 +1,16 @@
+.news {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  overflow: hidden;
+  width: 95vw;
+  height: 250px;
+  position: relative;
+}
+
+.news-item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}

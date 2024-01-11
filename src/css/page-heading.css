@@ -1,0 +1,45 @@
+.page-heading {
+    background-color: #01ad7a;
+    color: white;
+    /* height: 50px; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.page-heading .heading-nav {
+    width: 10%;
+
+    color: #fff;
+}
+
+.heading-cart {
+    position: relative;
+}
+
+.heading-cart span {
+    font-size: 12px;
+    color: black;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #01ad7a;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    /* position: relative;
+    left: -8px;
+    top: -14px; */
+    /* opacity: 0.9; */
+}
+
+.heading-search {
+    width: 70%;
+}

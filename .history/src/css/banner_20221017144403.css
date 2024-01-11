@@ -1,0 +1,10 @@
+.banner {
+  padding: 20px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.baner-image {
+}
